@@ -1,0 +1,837 @@
+{
+    "Patient_Info":[
+     {
+      "Patient_ID": 1,
+      "First_Name": "John",
+      "Last_Name": "Doe",
+      "Date_of_Birth": 1980,
+      "Age": 44,
+      "Sex": "M",
+      "Social_Security": 123456789,
+      "Phone_Number": "555-0123",
+      "Email_Address": "john.doe@example.com",
+      "Home_Address": "123 Elm St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 2,
+      "First_Name": "Jane",
+      "Last_Name": "Smith",
+      "Date_of_Birth": 1990,
+      "Age": 34,
+      "Sex": "F",
+      "Social_Security": 987654321,
+      "Phone_Number": "555-0456",
+      "Email_Address": "jane.smith@example.com",
+      "Home_Address": "456 Oak St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 3,
+      "First_Name": "Robert",
+      "Last_Name": "Johnson",
+      "Date_of_Birth": 1985,
+      "Age": 39,
+      "Sex": "M",
+      "Social_Security": 123987654,
+      "Phone_Number": "555-0789",
+      "Email_Address": "robert.johnson@example.com",
+      "Home_Address": "789 Pine St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 4,
+      "First_Name": "Emily",
+      "Last_Name": "Davis",
+      "Date_of_Birth": 1995,
+      "Age": 29,
+      "Sex": "F",
+      "Social_Security": 321654987,
+      "Phone_Number": "555-1011",
+      "Email_Address": "emily.davis@example.com",
+      "Home_Address": "101 Maple St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 5,
+      "First_Name": "Michael",
+      "Last_Name": "Brown",
+      "Date_of_Birth": 1975,
+      "Age": 49,
+      "Sex": "M",
+      "Social_Security": 654123789,
+      "Phone_Number": "555-1213",
+      "Email_Address": "michael.brown@example.com",
+      "Home_Address": "202 Birch St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 6,
+      "First_Name": "Linda",
+      "Last_Name": "Wilson",
+      "Date_of_Birth": 1982,
+      "Age": 42,
+      "Sex": "F",
+      "Social_Security": 321789654,
+      "Phone_Number": "555-1415",
+      "Email_Address": "linda.wilson@example.com",
+      "Home_Address": "303 Cedar St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 7,
+      "First_Name": "James",
+      "Last_Name": "Garcia",
+      "Date_of_Birth": 2000,
+      "Age": 24,
+      "Sex": "M",
+      "Social_Security": 456789123,
+      "Phone_Number": "555-1617",
+      "Email_Address": "james.garcia@example.com",
+      "Home_Address": "404 Cherry St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 8,
+      "First_Name": "Patricia",
+      "Last_Name": "Martinez",
+      "Date_of_Birth": 1993,
+      "Age": 31,
+      "Sex": "F",
+      "Social_Security": 654321987,
+      "Phone_Number": "555-1819",
+      "Email_Address": "patricia.martinez@example.com",
+      "Home_Address": "505 Walnut St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 9,
+      "First_Name": "David",
+      "Last_Name": "Lopez",
+      "Date_of_Birth": 1988,
+      "Age": 36,
+      "Sex": "M",
+      "Social_Security": 789654123,
+      "Phone_Number": "555-2021",
+      "Email_Address": "david.lopez@example.com",
+      "Home_Address": "606 Elm St, Springfield, IL"
+     },
+     {
+      "Patient_ID": 10,
+      "First_Name": "Anna",
+      "Last_Name": "Lee",
+      "Date_of_Birth": 1978,
+      "Age": 46,
+      "Sex": "F",
+      "Social_Security": 147258369,
+      "Phone_Number": "555-2222",
+      "Email_Address": "anna.lee@example.com",
+      "Home_Address": "707 Spruce St, Springfield, IL"
+     }
+    ],
+    "Emergency_Contact":[
+     {
+      "Emergency_Contact_ID": 1,
+      "Patient_ID": 1,
+      "First_Name": "Alice",
+      "Last_Name": "Doe",
+      "Relationship_to_Patient": "Sister",
+      "Phone_Number": "555-1111"
+     },
+     {
+      "Emergency_Contact_ID": 2,
+      "Patient_ID": 2,
+      "First_Name": "Bob",
+      "Last_Name": "Smith",
+      "Relationship_to_Patient": "Brother",
+      "Phone_Number": "555-2222"
+     },
+     {
+      "Emergency_Contact_ID": 3,
+      "Patient_ID": 3,
+      "First_Name": "Charlie",
+      "Last_Name": "Johnson",
+      "Relationship_to_Patient": "Father",
+      "Phone_Number": "555-3333"
+     },
+     {
+      "Emergency_Contact_ID": 4,
+      "Patient_ID": 4,
+      "First_Name": "Diana",
+      "Last_Name": "Davis",
+      "Relationship_to_Patient": "Mother",
+      "Phone_Number": "555-4444"
+     },
+     {
+      "Emergency_Contact_ID": 5,
+      "Patient_ID": 5,
+      "First_Name": "Ethan",
+      "Last_Name": "Brown",
+      "Relationship_to_Patient": "Son",
+      "Phone_Number": "555-5555"
+     },
+     {
+      "Emergency_Contact_ID": 6,
+      "Patient_ID": 6,
+      "First_Name": "Fiona",
+      "Last_Name": "Wilson",
+      "Relationship_to_Patient": "Daughter",
+      "Phone_Number": "555-6666"
+     },
+     {
+      "Emergency_Contact_ID": 7,
+      "Patient_ID": 7,
+      "First_Name": "George",
+      "Last_Name": "Garcia",
+      "Relationship_to_Patient": "Uncle",
+      "Phone_Number": "555-7777"
+     },
+     {
+      "Emergency_Contact_ID": 8,
+      "Patient_ID": 8,
+      "First_Name": "Hannah",
+      "Last_Name": "Martinez",
+      "Relationship_to_Patient": "Aunt",
+      "Phone_Number": "555-8888"
+     },
+     {
+      "Emergency_Contact_ID": 9,
+      "Patient_ID": 9,
+      "First_Name": "Irene",
+      "Last_Name": "Lopez",
+      "Relationship_to_Patient": "Cousin",
+      "Phone_Number": "555-9999"
+     },
+     {
+      "Emergency_Contact_ID": 10,
+      "Patient_ID": 10,
+      "First_Name": "Jack",
+      "Last_Name": "Lee",
+      "Relationship_to_Patient": "Friend",
+      "Phone_Number": "555-0000"
+     }
+    ],
+    "Patient_Surgical_History":[
+     {
+      "Surgical_ID": 1,
+      "Patient_ID": 1,
+      "Type_of_Surgery": "Appendectomy",
+      "Date_of_Surgery": "03\/15\/2021",
+      "Location": "General Hospital"
+     },
+     {
+      "Surgical_ID": 2,
+      "Patient_ID": 2,
+      "Type_of_Surgery": "Knee Replacement",
+      "Date_of_Surgery": "08\/20\/2022",
+      "Location": "Orthopedic Center"
+     },
+     {
+      "Surgical_ID": 3,
+      "Patient_ID": 3,
+      "Type_of_Surgery": "Gallbladder Removal",
+      "Date_of_Surgery": "10\/10\/2020",
+      "Location": "City Medical"
+     },
+     {
+      "Surgical_ID": 4,
+      "Patient_ID": 4,
+      "Type_of_Surgery": "Hip Surgery",
+      "Date_of_Surgery": "01\/12\/2023",
+      "Location": "Regional Hospital"
+     },
+     {
+      "Surgical_ID": 5,
+      "Patient_ID": 5,
+      "Type_of_Surgery": "Cataract Surgery",
+      "Date_of_Surgery": "06\/05\/2019",
+      "Location": "Eye Clinic"
+     },
+     {
+      "Surgical_ID": 6,
+      "Patient_ID": 6,
+      "Type_of_Surgery": "Heart Bypass",
+      "Date_of_Surgery": "11\/22\/2021",
+      "Location": "Heart Institute"
+     },
+     {
+      "Surgical_ID": 7,
+      "Patient_ID": 7,
+      "Type_of_Surgery": "Tonsillectomy",
+      "Date_of_Surgery": "05\/18\/2022",
+      "Location": "Children’s Hospital"
+     },
+     {
+      "Surgical_ID": 8,
+      "Patient_ID": 8,
+      "Type_of_Surgery": "Back Surgery",
+      "Date_of_Surgery": "07\/29\/2023",
+      "Location": "Spine Institute"
+     },
+     {
+      "Surgical_ID": 9,
+      "Patient_ID": 9,
+      "Type_of_Surgery": "Hernia Repair",
+      "Date_of_Surgery": "12\/15\/2022",
+      "Location": "Community Hospital"
+     },
+     {
+      "Surgical_ID": 10,
+      "Patient_ID": 10,
+      "Type_of_Surgery": "Shoulder Surgery",
+      "Date_of_Surgery": "02\/02\/2024",
+      "Location": "Surgical Center"
+     }
+    ],
+    "Patient_Insurance_Info":[
+     {
+      "Insurance_ID": 1,
+      "Patient_ID": 1,
+      "Company_Name": "Blue Cross",
+      "Card_Holder_First_Name": "John",
+      "Card_Holder_Last_Name": "Doe",
+      "Primary_ID_Number": 111222333,
+      "Primary_Group_Number": 444555
+     },
+     {
+      "Insurance_ID": 2,
+      "Patient_ID": 2,
+      "Company_Name": "Blue Cross",
+      "Card_Holder_First_Name": "Jane",
+      "Card_Holder_Last_Name": "Smith",
+      "Primary_ID_Number": 222333444,
+      "Primary_Group_Number": 555666
+     },
+     {
+      "Insurance_ID": 3,
+      "Patient_ID": 3,
+      "Company_Name": "Cigna",
+      "Card_Holder_First_Name": "Robert",
+      "Card_Holder_Last_Name": "Johnson",
+      "Primary_ID_Number": 333444555,
+      "Primary_Group_Number": 666777
+     },
+     {
+      "Insurance_ID": 4,
+      "Patient_ID": 4,
+      "Company_Name": "United Health",
+      "Card_Holder_First_Name": "Emily",
+      "Card_Holder_Last_Name": "Davis",
+      "Primary_ID_Number": 444555666,
+      "Primary_Group_Number": 777888
+     },
+     {
+      "Insurance_ID": 5,
+      "Patient_ID": 5,
+      "Company_Name": "Humana",
+      "Card_Holder_First_Name": "Michael",
+      "Card_Holder_Last_Name": "Brown",
+      "Primary_ID_Number": 555666777,
+      "Primary_Group_Number": 888999
+     },
+     {
+      "Insurance_ID": 6,
+      "Patient_ID": 6,
+      "Company_Name": "Medicare",
+      "Card_Holder_First_Name": "Linda",
+      "Card_Holder_Last_Name": "Wilson",
+      "Primary_ID_Number": 666777888,
+      "Primary_Group_Number": 999000
+     },
+     {
+      "Insurance_ID": 7,
+      "Patient_ID": 7,
+      "Company_Name": "Medicaid",
+      "Card_Holder_First_Name": "James",
+      "Card_Holder_Last_Name": "Garcia",
+      "Primary_ID_Number": 777888999,
+      "Primary_Group_Number": 100111
+     },
+     {
+      "Insurance_ID": 8,
+      "Patient_ID": 8,
+      "Company_Name": "Anthem",
+      "Card_Holder_First_Name": "Patricia",
+      "Card_Holder_Last_Name": "Martinez",
+      "Primary_ID_Number": 888999000,
+      "Primary_Group_Number": 111222
+     },
+     {
+      "Insurance_ID": 9,
+      "Patient_ID": 9,
+      "Company_Name": "WellCare",
+      "Card_Holder_First_Name": "David",
+      "Card_Holder_Last_Name": "Lopez",
+      "Primary_ID_Number": 999000111,
+      "Primary_Group_Number": 222333
+     },
+     {
+      "Insurance_ID": 10,
+      "Patient_ID": 10,
+      "Company_Name": "Kaiser Permanente",
+      "Card_Holder_First_Name": "Anna",
+      "Card_Holder_Last_Name": "Lee",
+      "Primary_ID_Number": 100111222,
+      "Primary_Group_Number": 333444
+     }
+    ],
+    "Pharmacy":[
+     {
+      "Pharmacy_ID": 1,
+      "Patient_ID": 1,
+      "First_Name": "Pharmacy One",
+      "Last_Name": "Doe",
+      "Location": "Springfield Pharmacy"
+     },
+     {
+      "Pharmacy_ID": 2,
+      "Patient_ID": 2,
+      "First_Name": "Pharmacy Two",
+      "Last_Name": "Smith",
+      "Location": "Central Pharmacy"
+     },
+     {
+      "Pharmacy_ID": 3,
+      "Patient_ID": 3,
+      "First_Name": "Pharmacy Three",
+      "Last_Name": "Johnson",
+      "Location": "Health Mart"
+     },
+     {
+      "Pharmacy_ID": 4,
+      "Patient_ID": 4,
+      "First_Name": "Pharmacy Four",
+      "Last_Name": "Davis",
+      "Location": "Care Pharmacy"
+     },
+     {
+      "Pharmacy_ID": 5,
+      "Patient_ID": 5,
+      "First_Name": "Pharmacy Five",
+      "Last_Name": "Brown",
+      "Location": "Family Pharmacy"
+     },
+     {
+      "Pharmacy_ID": 6,
+      "Patient_ID": 6,
+      "First_Name": "Pharmacy Six",
+      "Last_Name": "Wilson",
+      "Location": "Neighborhood Pharmacy"
+     },
+     {
+      "Pharmacy_ID": 7,
+      "Patient_ID": 7,
+      "First_Name": "Pharmacy Seven",
+      "Last_Name": "Garcia",
+      "Location": "Wellness Pharmacy"
+     },
+     {
+      "Pharmacy_ID": 8,
+      "Patient_ID": 8,
+      "First_Name": "Pharmacy Eight",
+      "Last_Name": "Martinez",
+      "Location": "City Pharmacy"
+     },
+     {
+      "Pharmacy_ID": 9,
+      "Patient_ID": 9,
+      "First_Name": "Pharmacy Nine",
+      "Last_Name": "Lopez",
+      "Location": "Local Pharmacy"
+     },
+     {
+      "Pharmacy_ID": 10,
+      "Patient_ID": 10,
+      "First_Name": "Pharmacy Ten",
+      "Last_Name": "Lee",
+      "Location": "Drugstore Pharmacy"
+     }
+    ],
+    "Patient_Social_History":[
+     {
+      "Social_History_ID": 1,
+      "Patient_ID": 1,
+      "Alcohol_Intake": "TRUE",
+      "Caffiene_Intake": "TRUE",
+      "Tobacco_Use": "FALSE",
+      "Sexually_Active": "TRUE"
+     },
+     {
+      "Social_History_ID": 2,
+      "Patient_ID": 2,
+      "Alcohol_Intake": "FALSE",
+      "Caffiene_Intake": "TRUE",
+      "Tobacco_Use": "TRUE",
+      "Sexually_Active": "FALSE"
+     },
+     {
+      "Social_History_ID": 3,
+      "Patient_ID": 3,
+      "Alcohol_Intake": "TRUE",
+      "Caffiene_Intake": "FALSE",
+      "Tobacco_Use": "TRUE",
+      "Sexually_Active": "TRUE"
+     },
+     {
+      "Social_History_ID": 4,
+      "Patient_ID": 4,
+      "Alcohol_Intake": "FALSE",
+      "Caffiene_Intake": "TRUE",
+      "Tobacco_Use": "FALSE",
+      "Sexually_Active": "TRUE"
+     },
+     {
+      "Social_History_ID": 5,
+      "Patient_ID": 5,
+      "Alcohol_Intake": "TRUE",
+      "Caffiene_Intake": "TRUE",
+      "Tobacco_Use": "FALSE",
+      "Sexually_Active": "FALSE"
+     },
+     {
+      "Social_History_ID": 6,
+      "Patient_ID": 6,
+      "Alcohol_Intake": "FALSE",
+      "Caffiene_Intake": "FALSE",
+      "Tobacco_Use": "TRUE",
+      "Sexually_Active": "TRUE"
+     },
+     {
+      "Social_History_ID": 7,
+      "Patient_ID": 7,
+      "Alcohol_Intake": "TRUE",
+      "Caffiene_Intake": "FALSE",
+      "Tobacco_Use": "FALSE",
+      "Sexually_Active": "TRUE"
+     },
+     {
+      "Social_History_ID": 8,
+      "Patient_ID": 8,
+      "Alcohol_Intake": "FALSE",
+      "Caffiene_Intake": "TRUE",
+      "Tobacco_Use": "TRUE",
+      "Sexually_Active": "FALSE"
+     },
+     {
+      "Social_History_ID": 9,
+      "Patient_ID": 9,
+      "Alcohol_Intake": "TRUE",
+      "Caffiene_Intake": "TRUE",
+      "Tobacco_Use": "FALSE",
+      "Sexually_Active": "TRUE"
+     },
+     {
+      "Social_History_ID": 10,
+      "Patient_ID": 10,
+      "Alcohol_Intake": "FALSE",
+      "Caffiene_Intake": "FALSE",
+      "Tobacco_Use": "TRUE",
+      "Sexually_Active": "FALSE"
+     }
+    ],
+    "Patient_Family_History":[
+     {
+      "Family_History_ID": 1,
+      "Patient_ID": 1,
+      "Relationship_to_Patient": "Mother",
+      "Diagnosis": "Diabetes"
+     },
+     {
+      "Family_History_ID": 2,
+      "Patient_ID": 2,
+      "Relationship_to_Patient": "Father",
+      "Diagnosis": "Hypertension"
+     },
+     {
+      "Family_History_ID": 3,
+      "Patient_ID": 3,
+      "Relationship_to_Patient": "Brother",
+      "Diagnosis": "Asthma"
+     },
+     {
+      "Family_History_ID": 4,
+      "Patient_ID": 4,
+      "Relationship_to_Patient": "Sister",
+      "Diagnosis": "Cancer"
+     },
+     {
+      "Family_History_ID": 5,
+      "Patient_ID": 5,
+      "Relationship_to_Patient": "Grandmother",
+      "Diagnosis": "Heart Disease"
+     },
+     {
+      "Family_History_ID": 6,
+      "Patient_ID": 6,
+      "Relationship_to_Patient": "Grandfather",
+      "Diagnosis": "Stroke"
+     },
+     {
+      "Family_History_ID": 7,
+      "Patient_ID": 7,
+      "Relationship_to_Patient": "Aunt",
+      "Diagnosis": "Anxiety"
+     },
+     {
+      "Family_History_ID": 8,
+      "Patient_ID": 8,
+      "Relationship_to_Patient": "Uncle",
+      "Diagnosis": "Depression"
+     },
+     {
+      "Family_History_ID": 9,
+      "Patient_ID": 9,
+      "Relationship_to_Patient": "Cousin",
+      "Diagnosis": "Allergies"
+     },
+     {
+      "Family_History_ID": 10,
+      "Patient_ID": 10,
+      "Relationship_to_Patient": "Niece",
+      "Diagnosis": "Obesity"
+     }
+    ],
+    "Patient_Allergies":[
+        {
+            "Patient_ID": 1,
+            "First_Name": "John",
+            "Last_Name": "Doe",
+            "Patient_Allergies": [{"Allergy_Name": "Peanuts"}, {"Allergy_Name": "Dust"}]
+        },
+        {
+            "Patient_ID": 2,
+            "First_Name": "Jane",
+            "Last_Name": "Smith",
+            "Patient_Allergies": [{"Allergy_Name": "Pollen"}]
+        },
+        {
+            "Patient_ID": 3,
+            "First_Name": "Robert",
+            "Last_Name": "Johnson",
+            "Patient_Allergies": [{"Allergy_Name": "Peanuts"}]
+        },
+        {
+            "Patient_ID": 4,
+            "First_Name": "Emily",
+            "Last_Name": "Davis",
+            "Patient_Allergies": [{"Allergy_Name": "Dust"}]
+        },
+        {
+            "Patient_ID": 5,
+            "First_Name": "Michael",
+            "Last_Name": "Brown",
+            "Patient_Allergies": []
+        }
+    ],
+    "Patient_Medication":[
+     {
+      "Medication_ID": 1,
+      "Medication_Name": "Ibuprofen",
+      "Patient_ID": 1,
+      "First_Name": "John",
+      "Last_Name": "Doe"
+     },
+     {
+      "Medication_ID": 2,
+      "Medication_Name": "Amlodipine",
+      "Patient_ID": 2,
+      "First_Name": "Jane",
+      "Last_Name": "Smith"
+     },
+     {
+      "Medication_ID": 3,
+      "Medication_Name": "Metformin",
+      "Patient_ID": 3,
+      "First_Name": "Robert",
+      "Last_Name": "Johnson"
+     },
+     {
+      "Medication_ID": 4,
+      "Medication_Name": "Lisinopril",
+      "Patient_ID": 4,
+      "First_Name": "Emily",
+      "Last_Name": "Davis"
+     },
+     {
+      "Medication_ID": 5,
+      "Medication_Name": "Atorvastatin",
+      "Patient_ID": 5,
+      "First_Name": "Michael",
+      "Last_Name": "Brown"
+     },
+     {
+      "Medication_ID": 6,
+      "Medication_Name": "Levothyroxine",
+      "Patient_ID": 6,
+      "First_Name": "Linda",
+      "Last_Name": "Wilson"
+     },
+     {
+      "Medication_ID": 7,
+      "Medication_Name": "Sertraline",
+      "Patient_ID": 7,
+      "First_Name": "James",
+      "Last_Name": "Garcia"
+     },
+     {
+      "Medication_ID": 8,
+      "Medication_Name": "Albuterol",
+      "Patient_ID": 8,
+      "First_Name": "Patricia",
+      "Last_Name": "Martinez"
+     },
+     {
+      "Medication_ID": 9,
+      "Medication_Name": "Omeprazole",
+      "Patient_ID": 9,
+      "First_Name": "David",
+      "Last_Name": "Lopez"
+     },
+     {
+      "Medication_ID": 10,
+      "Medication_Name": "Gabapentin",
+      "Patient_ID": 10,
+      "First_Name": "Anna",
+      "Last_Name": "Lee"
+     }
+    ],
+    "Patient_Diagnosis":[
+     {
+      "Diagnosis_ID": 1,
+      "Patient_ID": 1,
+      "First_Name": "John",
+      "Last_Name": "Doe"
+     },
+     {
+      "Diagnosis_ID": 2,
+      "Patient_ID": 2,
+      "First_Name": "Jane",
+      "Last_Name": "Smith"
+     },
+     {
+      "Diagnosis_ID": 3,
+      "Patient_ID": 3,
+      "First_Name": "Robert",
+      "Last_Name": "Johnson"
+     },
+     {
+      "Diagnosis_ID": 4,
+      "Patient_ID": 4,
+      "First_Name": "Emily",
+      "Last_Name": "Davis"
+     },
+     {
+      "Diagnosis_ID": 5,
+      "Patient_ID": 5,
+      "First_Name": "Michael",
+      "Last_Name": "Brown"
+     },
+     {
+      "Diagnosis_ID": 6,
+      "Patient_ID": 6,
+      "First_Name": "Linda",
+      "Last_Name": "Wilson"
+     },
+     {
+      "Diagnosis_ID": 7,
+      "Patient_ID": 7,
+      "First_Name": "James",
+      "Last_Name": "Garcia"
+     },
+     {
+      "Diagnosis_ID": 8,
+      "Patient_ID": 8,
+      "First_Name": "Patricia",
+      "Last_Name": "Martinez"
+     },
+     {
+      "Diagnosis_ID": 9,
+      "Patient_ID": 9,
+      "First_Name": "David",
+      "Last_Name": "Lopez"
+     },
+     {
+      "Diagnosis_ID": 10,
+      "Patient_ID": 10,
+      "First_Name": "Anna",
+      "Last_Name": "Lee"
+     }
+    ],
+    "Patient_Allergies_Medication":[
+     {
+      "Allergies_ID": 1,
+      "Medication_ID": 1
+     },
+     {
+      "Allergies_ID": 2,
+      "Medication_ID": 2
+     },
+     {
+      "Allergies_ID": 3,
+      "Medication_ID": 3
+     },
+     {
+      "Allergies_ID": 4,
+      "Medication_ID": 4
+     },
+     {
+      "Allergies_ID": 5,
+      "Medication_ID": 5
+     },
+     {
+      "Allergies_ID": 6,
+      "Medication_ID": 6
+     },
+     {
+      "Allergies_ID": 7,
+      "Medication_ID": 7
+     },
+     {
+      "Allergies_ID": 8,
+      "Medication_ID": 8
+     },
+     {
+      "Allergies_ID": 9,
+      "Medication_ID": 9
+     },
+     {
+      "Allergies_ID": 10,
+      "Medication_ID": 10
+     }
+    ],
+    "Patient_Diagnosis_Medication":[
+     {
+      "Diagnosis_ID": 1,
+      "Medication_ID": 1
+     },
+     {
+      "Diagnosis_ID": 2,
+      "Medication_ID": 2
+     },
+     {
+      "Diagnosis_ID": 3,
+      "Medication_ID": 3
+     },
+     {
+      "Diagnosis_ID": 4,
+      "Medication_ID": 4
+     },
+     {
+      "Diagnosis_ID": 5,
+      "Medication_ID": 5
+     },
+     {
+      "Diagnosis_ID": 6,
+      "Medication_ID": 6
+     },
+     {
+      "Diagnosis_ID": 7,
+      "Medication_ID": 7
+     },
+     {
+      "Diagnosis_ID": 8,
+      "Medication_ID": 8
+     },
+     {
+      "Diagnosis_ID": 9,
+      "Medication_ID": 9
+     },
+     {
+      "Diagnosis_ID": 10,
+      "Medication_ID": 10
+     }
+    ]
+    }
+    
